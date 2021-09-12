@@ -101,15 +101,12 @@ h4 {
     padding-top: 1rem;
    
 }
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .footer{
-        background-color: rgb(166, 166, 241);
-        color:black;
+        
         position: unset;
-        width: 100%;
-        text-align: center;
-        padding:1rem 0rem;
-        border-top-left-radius: 3rem;
+        bottom: auto;
+        
     }
-} */
+} 
 
