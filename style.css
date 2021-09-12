@@ -66,13 +66,13 @@ input:focus{
     border-top-left-radius: 3rem;
 }
 .footer-header{
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
-    padding:0.6rem 0rem;
+    
    
 }
 ul{
-    padding: 1rem;
+    padding: .5rem;
 }
 ul li{
  display:inline;
@@ -88,15 +88,20 @@ ul li a{
 ul li a:hover{
     font-weight: bold;
 }
-h4 , p{
+.extranote{
+    text-align: center;
+}
+h4 {
     color:rgb(53, 42, 42);
+    
+    
 }
 .notice{
-    text-align: end;
+    text-align: center;
+    padding-top: 1rem;
    
-    padding:0rem 1rem;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .footer{
         background-color: rgb(166, 166, 241);
         color:black;
@@ -106,5 +111,5 @@ h4 , p{
         padding:1rem 0rem;
         border-top-left-radius: 3rem;
     }
-}
+} */
 
