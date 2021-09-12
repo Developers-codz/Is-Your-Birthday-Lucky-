@@ -105,7 +105,7 @@ h4 {
     .footer{
         
         position: unset;
-        bottom: auto;
+        /* bottom: auto; */
         
     }
 } 
