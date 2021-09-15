@@ -19,17 +19,19 @@ checkBtn.addEventListener("click" , function checkData(event){
 
 function convertDOB(dob){
     // console.log(dob);
-    dob=dob.replaceAll("-","");
+    var DOB=dob.replaceAll("-","");
+    console.log(DOB)
     let sum=0;
-    for(let index=0;index<dob.length;index++){
-        sum=sum+Number(dob.charAt(index));
+    for(let index=0;index<DOB.length;index++){
+        sum=sum+Number(DOB.charAt(index));
     }
     return sum;
     
 }
 function checkBdayLucky(num , luckyNumber){
+    console.log(num)
     output.style.display = "block";
-    if(num%Number(luckyNumber)==0){
+    if(num % Number(luckyNumber)=== 0){
         output.innerText = "Your Birthday is lucky";  
     }
     else{
