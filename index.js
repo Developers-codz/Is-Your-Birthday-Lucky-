@@ -32,10 +32,10 @@ function checkBdayLucky(num , luckyNumber){
     console.log(num)
     output.style.display = "block";
     if(num % Number(luckyNumber)=== 0){
-        output.innerText = "Your Birthday is lucky";  
+        output.innerText = "Your Birthday is lucky🥳🥳";  
     }
     else{
-        output.innerText="Your Birthday is not lucky";
+        output.innerText="Your Birthday is not lucky☹️☹️";
     }
 
 }
